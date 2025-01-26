@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QQ - Fake Sites</title>
+    <!-- 设置页面图标 -->
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/145239958?v=4&size=64" type="image/png">
+    <!-- 引入全局 CSS 文件 -->
+    <link rel="stylesheet" href="/global.css">
+</head>
+<body>
+    <div class="nav-container">
+        <!-- 显示 LOGO -->
+        <img src="https://avatars.githubusercontent.com/u/145239958?v=4&size=64" alt="Logo" class="logo">
+        <nav class="blue-links">
+            <ul class="horizontal">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1>Office</h1>
+    <nav class="vertical-nav">
+        <ul class="vertical">
+            <li><a href="https://dl.nblowp.cn/qqsem.html" target="_blank">The phishing site of Office.</a></li>
+            <li><a href="https://im.qq.com" target="_blank">The official site of Office.</a></li>
+            <li><a href="demo.html" target="_blank">A demo copy of the phishing site.</a></li>
+        </ul>
+    </nav>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const links = document.querySelectorAll('a');
+            links.forEach(link => {
+                link.setAttribute('title', 'Click to view');
+            });
+        });
+    </script>
+</body>
+</html>

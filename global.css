@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:wght@400;700&display=swap');
+
+body {
+    font-family: 'Cascadia Code', monospace;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:visited {
+    color: inherit;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+nav ul.horizontal {
+    display: flex;
+}
+nav ul.horizontal li {
+    margin-right: 20px;
+}
+nav ul.vertical {
+    display: block;
+}
+nav ul.vertical li {
+    margin-bottom: 10px;
+}
+.blue-links a {
+    color: blue;
+}
+.logo {
+    height: 24px; /* 设置图片高度与文字一致 */
+    margin-right: 10px;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* 增加导航栏和其下链接之间的间距 */
+}
+.vertical-nav {
+    margin-top: 20px; /* 增加导航栏和其下链接之间的间距 */
+}

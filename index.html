@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Sites</title>
+    <!-- 设置页面图标 -->
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/145239958?v=4&size=64" type="image/png">
+    <!-- 引入全局 CSS 文件 -->
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <div class="nav-container">
+        <!-- 显示 LOGO -->
+        <img src="https://avatars.githubusercontent.com/u/145239958?v=4&size=64" alt="Logo" class="logo">
+        <nav class="blue-links">
+            <ul class="horizontal">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1>Fake Sites</h1>
+    <p class="description">By Luke Zhang</p>
+    <p class="description">Inspired by 360 and Baidu ads in China.</p>
+    <sub>A simple collection & demo of some fake phishing sites for educational purposes.<br>Click any of the link under the line to view</sub>
+    <hr>
+    <nav class="vertical-nav">
+        <ul class="vertical">
+            <li><a href="Office/index.html">Office</a></li>
+            <li><a href="QQ/index.html">QQ</a></li>
+            <li><a href="Steam/index.html">Steam</a></li>
+            <li><a href="VS/index.html">VS</a></li>
+            <li><a href="VSCode/index.html">VSCode</a></li>
+            <li><a href="WeiXin/index.html">WeiXin</a></li>
+            <li><a href="WinRAR/index.html">WinRAR</a></li>
+        </ul>
+    </nav>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const links = document.querySelectorAll('a');
+            links.forEach(link => {
+                link.setAttribute('title', 'Click to view');
+            });
+        });
+    </script>
+</body>
+</html>
